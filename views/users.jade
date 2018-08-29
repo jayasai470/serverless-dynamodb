@@ -1,0 +1,11 @@
+extends layout
+
+block users
+    //- .notification-bar
+    .leage-user-list-bg
+        .user-selection-title-border
+            .user-selection-title-text Users
+          each user in data
+            .leage-user-list-item
+                span.leage-user-item-text #{user.userName}
+    

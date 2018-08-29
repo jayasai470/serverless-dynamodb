@@ -1,0 +1,7 @@
+_.chain(user).groupBy("city").map(function(v, i){
+                            return {
+                                altName: i,
+                                name: i,
+                                users: v
+                            }
+                        })

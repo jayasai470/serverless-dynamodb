@@ -1,0 +1,31 @@
+{
+  "name": "serverless-settings-subscriptions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.5.0",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.2.1",
+    "lodash": "^4.17.10",
+    "path": "^0.12.7",
+    "serverless-http": "^1.5.5"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.237.1",
+    "request": "^2.87.0",
+    "serverless-dynamodb-autoscaling": "^0.6.2",
+    "serverless-dynamodb-local": "^0.2.30",
+    "serverless-offline": "^3.20.3",
+    "serverless-s3bucket-sync": "^0.1.5"
+  }
+}

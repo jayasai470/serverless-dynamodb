@@ -1,0 +1,15 @@
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+a, u {
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  user-select: none;
+  background-color: #fafafa;    
+  overflow:hidden
+}

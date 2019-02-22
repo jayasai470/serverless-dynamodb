@@ -1,0 +1,19 @@
+language: node_js
+sudo: false
+node_js:
+  - 8
+
+cache:
+  directories:
+  - node_modules
+
+before_install:
+  - npm i -g serverless
+
+install:
+  - npm install
+  - sls dynamodb install
+
+script:
+  - sls dynamodb start
+  - sls offline start

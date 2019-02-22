@@ -1,3 +1,8 @@
+[![serverless](http://public.serverless.com/badges/v3.svg)](http://www.serverless.com)
+![APM](https://img.shields.io/apm/l/vim-mode.svg)
+[![Build Status](https://travis-ci.org/jayasai470/serverless-dynamodb.svg?branch=master)](https://travis-ci.org/jayasai470/serverless-dynamodb)
+[![Known Vulnerabilities](https://snyk.io/test/github/jayasai470/serverless-dynamodb/badge.svg)](https://snyk.io/test/github/jayasai470/serverless-dynamodb)
+
 # Serverless dynamodb
 
 Starter project for serverless and dynamodb

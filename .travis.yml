@@ -16,4 +16,4 @@ install:
 
 script:
 #   - sls dynamodb start
-  - sls offline start
+#   - sls offline start
